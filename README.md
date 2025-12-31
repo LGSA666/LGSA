@@ -6,7 +6,7 @@ For details about data acquisition, processing, and baseline parameter settings,
 
 ## Train
 Checkpoints are in `./checkpoints/DATA-NAME`. Two checkpoints are kept based on macro-F1 and micro-F1 respectively (`checkpoint_best_macro.pt`, `checkpoint_best_micro.pt`).
-The training requires the modification of parameters based on the dataset. `--seloss-wight` is for the wight of structural entropy loss, and `--label-loss-wight`, `--hie-label-loss-wight` are for the wight of singular value
+The training requires the modification of parameters based on the dataset. `--gof_loss_weight` is for the wight of hierarchical geometric regularization loss, and `--label-loss-wight`, `--hie-label-loss-wight` are for the wight of singular value
 smoothing regularization loss.
 We take the main results as the average of six random experiments.
 ### Elamples
