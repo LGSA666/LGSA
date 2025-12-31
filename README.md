@@ -19,3 +19,7 @@ Use `--extra _macro` or `--extra _micro` to choose from using `checkpoint_best_m
 python test.py --name WebOfScience-test
 ```
 ## requirement
+```
+torch-geometric==2.6.1
+torch==2.12
+```
