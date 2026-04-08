@@ -1,5 +1,7 @@
 # LGSA: Label Geometry Structuring and Aligning for Hierarchical Text Classification
 This repository implements LGSA, an optimized model via general orthogonal frame and geometric regularization for hierarchical text classification.
+<img width="2667" height="1500" alt="all-4-8" src="https://github.com/user-attachments/assets/f31767f8-589d-4225-8ea0-52b73eb9525b" />
+
 
 ## Preprocess
 For details about data acquisition, processing, and baseline parameter settings, please refer to HPT (https://github.com/wzh9969/HPT).
