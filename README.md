@@ -2,7 +2,7 @@
 This repository implements LGSA, an optimized model via general orthogonal frame and geometric regularization for hierarchical text classification.
 
 ## Preprocess
-For details about data acquisition, processing, and baseline parameter settings, please refer to HPT.
+For details about data acquisition, processing, and baseline parameter settings, please refer to HPT (https://github.com/wzh9969/HPT).
 
 ## Train
 Checkpoints are in `./checkpoints/DATA-NAME`. Two checkpoints are kept based on macro-F1 and micro-F1 respectively (`checkpoint_best_macro.pt`, `checkpoint_best_micro.pt`).
